@@ -16,6 +16,7 @@
 		C7222623265FA7FB00F7D6F0 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7222622265FA7FB00F7D6F0 /* Movie.swift */; };
 		C7222627265FB04C00F7D6F0 /* MovieService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7222626265FB04C00F7D6F0 /* MovieService.swift */; };
 		C7222629265FC7C600F7D6F0 /* MovieStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7222628265FC7C600F7D6F0 /* MovieStore.swift */; };
+		C722262B265FCB7B00F7D6F0 /* JsonDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C722262A265FCB7B00F7D6F0 /* JsonDecoder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		C7222622265FA7FB00F7D6F0 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		C7222626265FB04C00F7D6F0 /* MovieService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieService.swift; sourceTree = "<group>"; };
 		C7222628265FC7C600F7D6F0 /* MovieStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieStore.swift; sourceTree = "<group>"; };
+		C722262A265FCB7B00F7D6F0 /* JsonDecoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonDecoder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 			children = (
 				C722260D265FA74600F7D6F0 /* AppDelegate.swift */,
 				C722260F265FA74600F7D6F0 /* SceneDelegate.swift */,
+				C722262A265FCB7B00F7D6F0 /* JsonDecoder.swift */,
 				C7222611265FA74600F7D6F0 /* ContentView.swift */,
 				C7222621265FA79F00F7D6F0 /* Model */,
 				C7222625265FACC700F7D6F0 /* Services */,
@@ -170,6 +173,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C722262B265FCB7B00F7D6F0 /* JsonDecoder.swift in Sources */,
 				C722260E265FA74600F7D6F0 /* AppDelegate.swift in Sources */,
 				C7222610265FA74600F7D6F0 /* SceneDelegate.swift in Sources */,
 				C7222623265FA7FB00F7D6F0 /* Movie.swift in Sources */,

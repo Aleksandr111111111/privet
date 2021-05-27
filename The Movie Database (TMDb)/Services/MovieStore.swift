@@ -8,6 +8,7 @@
 import Foundation
 
 class MovieStore: MovieService {
+
     
     static let shared = MovieStore()
     private init() {}
@@ -15,6 +16,8 @@ class MovieStore: MovieService {
     private let apiKey = "7d8c9eb9bc259697670cd05903f668a8"
     private let baseAPIURL = "https://api.themoviedb.org/3"
     private let urlSession = URLSession.shared
+    private let jsoneDecoder = JsonDecoder.jsonDecoder
+    
     
     
 }
